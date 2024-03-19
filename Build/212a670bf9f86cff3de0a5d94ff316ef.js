@@ -7997,7 +7997,7 @@ var ASM_CONSTS = {
           Module["WebGPU"].device = wgpu[device];
       }
 
-      var wr = { requestInstances: {}, nextRequestId: 1, loglevel: 2, responses:{}, timer:{}, requests:{}, abortControllers:{} };
+  var wr = { requestInstances: {}, nextRequestId: 1, loglevel: 2, responses:{}, timer:{}, requests:{}, abortControllers:{} };
   function _JS_WebRequest_Abort(requestId)
   	{
   		var abortController = wr.abortControllers[requestId];
